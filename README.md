@@ -2,7 +2,9 @@
 
 Leetcode solutions
 
+To execute solutions,
+
 ```
-g++  -std=c++11 {number}.cpp
-./a.out
+make {Problem number} # e.g. make 20
+make run # excutes ./a.out
 ```
