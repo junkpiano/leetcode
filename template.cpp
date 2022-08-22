@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
+
+#if defined(__APPLE__) && defined(__MACH__)
+#undef assert
+#endif
 
 #ifdef NDEBUG
 #define assert(condition, message) 0

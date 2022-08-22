@@ -1,8 +1,24 @@
+/**
+ * @file 20.cpp
+ * @author Yusuke Ohashi (mail@yusuke.cloud)
+ * @brief 
+ * @version 0.1
+ * @date 2022-08-22
+ * 
+ * @copyright Copyright (c) 2022 Yusuke Ohashi
+ * 
+ */
+
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
+
+#if defined(__APPLE__) && defined(__MACH__)
+#undef assert
+#endif
 
 #ifdef NDEBUG
 #define assert(condition, message) 0

@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/yusuke.a.ohashi/src/github.com/junkpiano/leetcode'
+./a.out
+make: Leaving directory `/Users/yusuke.a.ohashi/src/github.com/junkpiano/leetcode'
+ 
